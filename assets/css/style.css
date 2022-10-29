@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Cabin+Sketch:wght@700&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Cabin Sketch',sans-serif;
+}
+header {
+    font-size: 50px;
+    color: #fdfdfe;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+    background-color: #301934;
+    text-align: center;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+.background-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  
+    padding: 1rem;
+    min-height: 100vh;
+    background-color: rgb(183, 146, 212);
+    transition: all 0.25s;
+}
+.game {
+
+    width: 450px;
+    padding:20px 15px 50px 12px;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+  
+    background-color: #fff;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+  .game-title {
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(163, 102, 184);
+    margin-top: 1px;
+    font-size: 2.5rem;
+
+  }
+  .game-timer {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 3rem;
+    color:#62256c;
+  }
+  
+  .color-list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+    margin: 0 auto;
+    
+  }
+  
+  .color-list > li {
+    position: relative;
+  
+    width: 75px;
+    height: 65px;
+    border-radius: 4px;
+    margin: 5px;
+    overflow: hidden;
+  
+    background-color: rgb(154, 46, 46);
+    transition: all 0.25s ease 0s;
+    cursor: pointer;
+    
+  }
+  .color-list > li .box {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  
+    height: 100%;
+
+  
+    transition: all 0.25s;
+    background-color: rgb(169, 241, 114);
+  }
+  button {
+    color:rgb(149, 112, 151);
+  }
+  footer {
+      text-align: center;
+      color: rgba(255, 255, 255, 0.75);
+      font-size: 4rem;
+     background-color: rgb(183, 146, 212);
+     margin-top:-20px;
+  }
+  footer a {
+    color:rgb(104, 8, 8);
+    text-decoration: none;
+  }
+  .difficulty-button-wrapper {
+    position:relative;
+    display:inline-flex;
+    margin:10px;
+
+  }
+  .difficulty-button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    background:rgb(255, 255, 255);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 50px;
+    font-size:1.5rem;
+
+  }
+  .button-difficulty {
+    width: 160px;
+  }
+  .instruction-button {
+    cursor: pointer;
+    font-size: 1.5rem;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width:160px;
+    height: 50px;
+    margin-top:10px;
+    border:none;
+
+  }
+  .game-button-wrapper {
+    text-align: center;
+    margin: 0.5rem 2rem;
+    margin:20px;
+
+  }
+  .game-button {
+    cursor: pointer;
+    font-size: 2rem;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width:200px;
+    height: 50px;
+    border:none;
+  }
+  /**Media query**/
+  @media screen and (max-width: 600px) {
+    body { float:none;}
+    header {
+        width: 100%;
+      }
+    .background-container {
+      width: 100%;
+    }
+    .game {
+      width: 100%;
+    }
+  }
