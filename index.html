@@ -17,7 +17,7 @@
             <!--Game -->
     
     <section class = 'background-container'>
-              <!--Timer-->
+              <!--Game Timer-->
       <div><h1 class="game-timer">Timer: </h1>
       </div>
           <!--Game Board-->
@@ -86,6 +86,21 @@
                   <li>
                     <div class="box"></div>
                   </li>
+                  <li class="hard">
+                    <div class="box"></div>
+                  </li>
+                  <li class="hard">
+                    <div class="box"></div>
+                  </li>
+                  <li class="hard">
+                    <div class="box"></div>
+                  </li>
+                  <li class="hard">
+                    <div class="box"></div>
+                  </li>
+                  <li class="hard">
+                    <div class="box"></div>
+                  </li>
                 </ul>
             </div>
           </div>
@@ -95,11 +110,15 @@
           </div>
           <!--Difficulty Level Button-->
           <div class="difficulty-button-wrapper">
-            <button class="difficulty-button button-difficulty">Difficulty</button>
-            <button class="expand-more-icon difficulty-button" >
-              <span class="material-icons">expand_more</span>
-
-            </button>
+            <button onclick = "difficultySettings()" class="difficulty-button button-difficulty">Difficulty</button>
+            <div class="dropdown-content">
+                <ul>
+                    <li><p onclick="setDifficulty(12)" class="difficultyOption">Easy</p></li>
+                    <li><p onclick="setDifficulty(20)" class="difficultyOption">Medium</p></li>
+                    <li><p onclick="setDifficulty(30)" class="difficultyOption">Hard</p></li>
+                </ul>
+            </div>
+            
           </div>
           <!--Instruction Button-->
           <div class="instruction-button-wrapper">
@@ -110,6 +129,6 @@
     <footer>
       <a href="https://github.com/EmanuelMariusNicu/color-game" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i></a>
     </footer>
-    
+    <script type="module" src="script.js"></script>
 </body>
 </html>
