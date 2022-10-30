@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Maching Game</title>
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -121,14 +120,29 @@
             
           </div>
           <!--Instruction Button-->
-          <div class="instruction-button-wrapper">
-            <button class="instruction-button">Instructions</button>
+          <div class="instruction-btn">
+            <button id="myModalBtn" class="instruction-button">Instructions</button>
+            <div id="myModal" class="modal">
+              <div class="instruction-content">
+                <span class="close">&times;</span>
+                <h1>How to play our online 'Guess The Colors' game for adults and kids?</h1>
+                <br>
+                <h3>Just click on "Play Game" to start the game. You can increase the number of cards, and thus the level of difficulty, thanks to the 'Difficulty' button located below the game.</h3>
+                <br>
+                <h2>Matching games encourage to pay close attention to details. In Guess The Color game, also children get exposed to colors to help their memory. Click on the cells to see which color is behind it.
+                  The purpose of this memory game is to memorize the locations of the cards on the board game and to make pairs of cards of same color by turning them over 2 by 2. When the 2 cards match color, it's a pair! Try pair them all inside de timer alocated!! 
+                   After you complete the first round, try again.</h2>
+                <br>
+                <h3>Every time you start a new game, a random selection and a random positioning of the cards ensure you a different game than the previous one, so you can play as many times as you want!</h3>
+                <h3> Only the next time, see if you can match all the colors in fewer tries.</h3>
+            
+            </div>
           </div>
     </section>
     <!--Footer/ social media icons-->
     <footer>
       <a href="https://github.com/EmanuelMariusNicu/color-game" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i></a>
     </footer>
-    <script type="module" src="script.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>

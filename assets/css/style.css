@@ -119,9 +119,10 @@ ul {
     display:none;
     position:absolute;
     background-color:rgb(255, 255, 255);
-    min-width: 160px;
+    width: 140px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    
 
   }
   .dropdown-content li {
@@ -131,17 +132,19 @@ ul {
     display: block;
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-    font-size: 1.5rem;
+    font-size: 1.0rem;
     text-align: center;
     cursor:pointer;
-    width: 180px;
+    width: 140px;
+    margin-top: 0;
+  
   }
 
   .dropdown-content li:hover {
   color:#a597a7;
-  background-color: ;
   }
-  .difficulty-button-wrapper:hover .dropdown-content {display: block;}
+  .difficulty-button-wrapper:hover .dropdown-content {display: block;
+  }
 
 
   .difficulty-button {
@@ -201,3 +204,42 @@ ul {
       width: 100%;
     }
   }
+    /**Styling modal instruction button **/
+    /* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.instruction-content {
+  background-color: #e2d5d5;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
