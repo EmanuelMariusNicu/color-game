@@ -94,8 +94,9 @@ ul {
 
   
     transition: all 0.25s;
-    background-color: rgb(169, 241, 114);
+    background-color: rgb(125, 221, 98);
   }
+  
   /*buttons*/
   button {
     color:rgb(149, 112, 151);
@@ -108,14 +109,15 @@ ul {
   footer {
       text-align: center;
       color: rgba(255, 255, 255, 0.75);
-      font-size: 4rem;
-     background-color: rgb(183, 146, 212);
-     margin-top:-20px;
+      font-size: 3rem;
+      background-color: rgb(183, 146, 212);
+      margin-top:-20px;
   }
-  /*footer tags*/
+  /*footer social media icons*/
   footer a {
-    color:rgb(104, 8, 8);
+    color:rgb(51, 129, 46);
     text-decoration: none;
+    
   }
 
   /*difficulty button wrapper */
