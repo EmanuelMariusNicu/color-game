@@ -1,17 +1,21 @@
+
+/*Font link*/
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Cabin+Sketch:wght@700&display=swap');
 
+  
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
     font-family: 'Cabin Sketch',sans-serif;
 }
+
 header {
     font-size: 50px;
     color: #fdfdfe;
-    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
-    0px 0px 20px #b393d3;
-    background-color: #301934;
+    text-shadow: 1px 0px 5px #b393d3, 5px 0px 10px #b393d3, 0px 10px 10px #b393d3,
+    0px 0px 40px #b393d3;
+    background-color: #4c3153;
     text-align: center;
     cursor: pointer;
 }
@@ -19,6 +23,7 @@ header {
 ul {
     list-style-type: none;
 }
+
 .background-container {
     display: flex;
     flex-flow: column nowrap;
@@ -38,8 +43,8 @@ ul {
     border-radius: 0.5rem;
   
     background-color: #fff;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.3), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 2);
   }
   .game-title {
     text-align: center;
@@ -91,12 +96,15 @@ ul {
     transition: all 0.25s;
     background-color: rgb(169, 241, 114);
   }
+  /*buttons*/
   button {
     color:rgb(149, 112, 151);
   }
+  /*hover over buttons*/
   button:hover {
-    color:#301934
+    color:rgb(58, 70, 49);
   }
+  /*footer*/
   footer {
       text-align: center;
       color: rgba(255, 255, 255, 0.75);
@@ -104,10 +112,13 @@ ul {
      background-color: rgb(183, 146, 212);
      margin-top:-20px;
   }
+  /*footer tags*/
   footer a {
     color:rgb(104, 8, 8);
     text-decoration: none;
   }
+
+  /*difficulty button wrapper */
   .difficulty-button-wrapper {
     position:relative;
     display:inline-block;
@@ -115,24 +126,23 @@ ul {
 
 
   }
+  /*dropdown button  in the center of difficulty button*/
   .dropdown-content {
     display:none;
     background-color:rgb(255, 255, 255);
     width: 80%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
     
-  
-    
-
   }
+  /*dropdown list from difficulty button*/
   .dropdown-content li {
-    color: black;
+    color:rgb(149, 112, 151);
     text-decoration: none;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 1, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
     font-size: 1.5rem;
     text-align: center;
     cursor:pointer;
@@ -140,20 +150,21 @@ ul {
     text-align: center;
    
   }
-
+/*hover over dropdown list from difficulty button*/
   .dropdown-content li:hover {
-  color:#a597a7;
+    color:rgb(43, 55, 34)
   }
+  /*hover over difficulty button */
   .difficulty-button-wrapper:hover .dropdown-content {display: block;
   }
 
-
+/*difficulty button */
   .difficulty-button {
     cursor: pointer;
     font-size: 1.5rem;
     background:rgb(255, 255, 255);
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.2), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 1);
     border:none;
     display: flex;
     align-items: center;
@@ -161,38 +172,41 @@ ul {
     
     height: 50px;
     font-size:1.5rem;
+    width: 180px;
 
   }
-  .button-difficulty {
-    width: 180px;
-  }
+  
+ 
+  /*instruction button*/
   .instruction-button {
     cursor: pointer;
     font-size: 1.2rem;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.2), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 1);
     width:160px;
     height: 50px;
     margin:20px;
     border:none;
 
   }
+  /*play game button wrapper*/
   .game-button-wrapper {
     text-align: center;
     margin: 0.5rem 2rem;
     margin:30px;
 
   }
+  /*play game button */
   .game-button {
     cursor: pointer;
     font-size: 2rem;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
-    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.2), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 1);
     width:220px;
     height: 50px;
     border:none;
   }
-  /**Media query**/
+  /**media query**/
   @media screen and (max-width: 600px) {
     body { float:none;}
     header {
@@ -214,14 +228,14 @@ ul {
   padding-top: 100px;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
 }
 
-/* Modal Content */
+/* Modal content */
 .instruction-content {
   background-color: #e2d5d5;
   margin: auto;
@@ -230,14 +244,14 @@ ul {
   width: 80%;
 }
 
-/* The Close Button */
+/* The close button */
 .close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
-
+/*Close button hover*/
 .close:hover,
 .close:focus {
   color: #000;

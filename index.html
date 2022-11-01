@@ -19,8 +19,9 @@
               <!--Game Timer-->
       <div><h1 class="game-timer">Timer : 00 </h1>
       </div>
-          <!--Game Board-->
+          <!--Game board-->
           <div class="game">
+            <!--Game board title-->
             <h1 class="game-title">Match the colors</h1>
           
             <div class="game-board">
@@ -88,13 +89,14 @@
                 </ul>
             </div>
           </div>
-          <!--Start Game Button-->
+          <!--Start game button-->
           <div class="game-button-wrapper">
             <button class="game-button">Play Game</button>
           </div>
-          <!--Difficulty Level Button-->
+          <!--Difficulty level button-->
           <div class="difficulty-button-wrapper">
             <button onclick = "difficultySettings()" class="difficulty-button button-difficulty">Difficulty</button>
+            <!--Difficulty button dropdown list-->
             <div class="dropdown-content">
                 <ul>
                     <li><p onclick="setDifficulty(12)" class="difficultyOption">Easy</p></li>
@@ -104,8 +106,9 @@
             </div>
             
           </div>
-          <!--Instruction Button-->
+          <!--Instruction button-->
           <div class="instruction-btn">
+            <!--Instruction button modal with game rules-->
             <button id="myModalBtn" class="instruction-button">Instructions</button>
             <div id="myModal" class="modal">
               <div class="instruction-content">
@@ -128,6 +131,7 @@
     <footer>
       <a href="https://github.com/EmanuelMariusNicu/color-game" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i></a>
     </footer>
+    <!--JS external link-->
     <script src="/assets/js/script.js"></script>
 </body>
 </html>
