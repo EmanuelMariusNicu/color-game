@@ -5,110 +5,109 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Maching Game</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </head>
 <body>
             <!--Header logo-->
-    <header>Guess The Colors</header>
+    <header>Match The Colors</header>
             <!--Game -->
     
     <section class = 'background-container'>
               <!--Game Timer-->
-      <div><h1 class="game-timer">Timer : 00 </h1>
+      <div><h1 class="game-timer"></h1>
       </div>
-          <!--Game board-->
+          <!--Game Board-->
           <div class="game">
-            <!--Game board title-->
-            <h1 class="game-title">Match the colors</h1>
+            <h1 class="game-title">Too Easy!</h1>
           
             <div class="game-board">
                 <ul id="colorList" class="color-list">
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box easy medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box medium hard"></div>
                   </li>
                   <li>
-                    <div class="box"></div>
+                    <div class="box medium hard"></div>
                   </li>
-                  <li class="hard">
-                    <div class="box"></div>
+                  <li>
+                    <div class="box medium hard"></div>
                   </li>
-                  <li class="hard">
-                    <div class="box"></div>
+                  <li>
+                    <div class="box hard"></div>
                   </li>
-                  <li class="hard">
-                    <div class="box"></div>
+                  <li>
+                    <div class="box hard"></div>
                   </li>
-                  <li class="hard">
-                    <div class="box"></div>
+                  <li>
+                    <div class="box hard"></div>
                   </li>
-                  <li class="hard">
-                    <div class="box"></div>
+                  <li>
+                    <div class="box hard"></div>
                   </li>
+
                 </ul>
             </div>
           </div>
-          <!--Start game button-->
+          <!--Start Game Button-->
           <div class="game-button-wrapper">
             <button class="game-button">Play Game</button>
           </div>
-          <!--Difficulty level button-->
+          <!--Difficulty Level Button-->
           <div class="difficulty-button-wrapper">
             <button onclick = "difficultySettings()" class="difficulty-button button-difficulty">Difficulty</button>
-            <!--Difficulty button dropdown list-->
             <div class="dropdown-content">
                 <ul>
-                    <li><p onclick="setDifficulty(12)" class="difficultyOption">Easy</p></li>
-                    <li><p onclick="setDifficulty(20)" class="difficultyOption">Medium</p></li>
-                    <li><p onclick="setDifficulty(30)" class="difficultyOption">Hard</p></li>
+                    <li><p class="difficultyOption">Easy</p></li>
+                    <li><p class="difficultyOption">Medium</p></li>
+                    <li><p class="difficultyOption">Hard</p></li>
                 </ul>
             </div>
             
           </div>
-          <!--Instruction button-->
-          <div class="instruction-btn">
-            <!--Instruction button modal with game rules-->
+           <!--Instruction Button-->
+           <div class="instruction-btn">
             <button id="myModalBtn" class="instruction-button">Instructions</button>
             <div id="myModal" class="modal">
               <div class="instruction-content">
@@ -132,7 +131,8 @@
       <a href="https://github.com/EmanuelMariusNicu/color-game" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i></a>
       <a href="https://www.linkedin.com/in/marius-emanuel-nicusor-4ab4b2244/" target="_blank" rel="noreferrer noopener"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
     </footer>
-    <!--JS external link-->
-    <script src="/assets/js/script.js"></script>
+    <script src="assets/js/game.js"></script>
+    <script src="assets/js/script.js"></script>
+
 </body>
 </html>

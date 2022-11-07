@@ -1,21 +1,18 @@
 
-/*Font link*/
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&family=Cabin+Sketch:wght@700&display=swap');
 
-  
 * {
     margin:0;
     padding:0;
     box-sizing: border-box;
     font-family: 'Cabin Sketch',sans-serif;
 }
-
 header {
     font-size: 50px;
     color: #fdfdfe;
-    text-shadow: 1px 0px 5px #b393d3, 5px 0px 10px #b393d3, 0px 10px 10px #b393d3,
-    0px 0px 40px #b393d3;
-    background-color: #4c3153;
+    text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+    background-color: #301934;
     text-align: center;
     cursor: pointer;
 }
@@ -37,17 +34,16 @@ ul {
 }
 /*main board game container */ 
 .game {
-
-    width: 450px;
-    padding:20px 15px 50px 12px;
+    width: 400px;
+    padding:15px 15px 10px 15px;
     margin: 0 auto;
     border-radius: 0.5rem;
   
     background-color: #fff;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.3), 0 0 0 2px rgb(255, 255, 255),
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.07), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 2);
   }
-  /*game title*/
+/*game title*/
   .game-title {
     text-align: center;
     text-transform: uppercase;
@@ -65,9 +61,10 @@ ul {
   }
   /*board game list cells*/
   .color-list {
+
     display: flex;
     flex-flow: row wrap;
-    width: 500px;
+    width: 300px;
     margin: 0 auto;
     
   }
@@ -75,18 +72,22 @@ ul {
   .color-list > li {
     position: relative;
   
-    width: 75px;
+    width: 65px;
     height: 65px;
     border-radius: 4px;
     margin: 5px;
     overflow: hidden;
   
-    background-color: rgb(154, 46, 46);
+    background-color: #ccc;
     transition: all 0.25s ease 0s;
     cursor: pointer;
     
   }
-  /*board game color cells*/
+
+  .hideBox {
+    display: none;
+  }
+/*board game color cells*/
   .color-list > li .box {
     content: "";
     position: absolute;
@@ -95,45 +96,46 @@ ul {
     right: 0;
   
     height: 100%;
-
+    max-height: 0;
   
     transition: all 0.25s;
-    background-color: rgb(229, 218, 105);
+    background-color: rgb(91, 184, 41);
   }
-  /*board game color cells hover effect*/
-  .color-list > li .box:hover {
-    background-color:rgb(172, 172, 172);
+
+  .color-list > li.active .box {
+    max-height: 100%;
   }
-  /*buttons*/
+   /*board game color cells hover effect*/
+  .color-list > li:hover {
+    background-color:rgb(218, 228, 144);
+  }
+/*buttons*/
   button {
-    color:rgb(149, 112, 151);
+  color:rgb(149, 112, 151);
   }
   /*hover over buttons*/
   button:hover {
-    color:rgb(211, 208, 20);
+    color:#301934
   }
-  /*footer*/
+  /*Footer*/
   footer {
       text-align: center;
       color: rgba(255, 255, 255, 0.75);
-      font-size: 3rem;
-      background-color: rgb(183, 146, 212);
-      margin-top:-20px;
+      font-size: 4rem;
+     background-color: rgb(183, 146, 212);
+     margin-top:-20px;
   }
+
   /*footer social media icons*/
   footer a {
     color:rgb(97, 52, 102);
     text-decoration: none;
-    
   }
-
+  
   /*difficulty button wrapper */
   .difficulty-button-wrapper {
     position:relative;
     display:inline-block;
-
-
-
   }
   /*dropdown button  in the center of difficulty button*/
   .dropdown-content {
@@ -144,34 +146,33 @@ ul {
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
-    
+
   }
+
   /*dropdown list from difficulty button*/
   .dropdown-content li {
     color:rgb(149, 112, 151);
     text-decoration: none;
-    box-shadow: inset 0 -3em 3em rgba(0, 0, 1, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
     font-size: 1.5rem;
     text-align: center;
     cursor:pointer;
     width: 100%;
-    text-align: center;
-   
-  }
-/*hover over dropdown list from difficulty button*/
-  .dropdown-content li:hover {
-    color:rgb(211, 208, 20);
-  }
-  /*hover over difficulty button */
-  .difficulty-button-wrapper:hover .dropdown-content {display: block;
   }
 
-/*difficulty button */
+  /*hover over dropdown list from difficulty button*/
+  .dropdown-content li:hover {
+  color:#a597a7;
+
+  }
+   /*hover over difficulty button */
+  .difficulty-button-wrapper:hover .dropdown-content {display: block;}
+
+  /*difficulty button */
   .difficulty-button {
     cursor: pointer;
     font-size: 1.5rem;
-    
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 1);
     border:none;
@@ -182,11 +183,9 @@ ul {
     height: 50px;
     font-size:1.5rem;
     width: 180px;
-
   }
   
- 
-  /*instruction button*/
+/*Instruction button*/
   .instruction-button {
     cursor: pointer;
     font-size: 1.2rem;
@@ -198,6 +197,44 @@ ul {
     border:none;
 
   }
+
+  .modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .instruction-content {
+    background-color: #e2d5d5;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
   /*play game button wrapper*/
   .game-button-wrapper {
     text-align: center;
@@ -205,7 +242,7 @@ ul {
     margin:30px;
 
   }
-  /*play game button */
+   /*play game button */
   .game-button {
     cursor: pointer;
     font-size: 2rem;
@@ -215,8 +252,8 @@ ul {
     height: 50px;
     border:none;
   }
-  /**media query**/
-  @media screen and (max-width: 600px) {
+  /**Media query**/
+  @media screen and (max-width: 800px) {
     body { float:none;}
     header {
         width: 100%;
@@ -228,42 +265,3 @@ ul {
       width: 100%;
     }
   }
-    /**Styling modal instruction button **/
-    /* The Modal (background) */
-.modal {
-  display: none;
-  position: fixed; 
-  z-index: 1; 
-  padding-top: 100px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.4);
-}
-
-/* Modal content */
-.instruction-content {
-  background-color: #e2d5d5;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
-/* The close button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-/*Close button hover*/
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
