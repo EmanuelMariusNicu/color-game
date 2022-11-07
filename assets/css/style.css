@@ -106,9 +106,8 @@ ul {
     max-height: 100%;
   }
    /*board game color cells hover effect*/
-  .color-list > li:hover {
-    background-color:rgb(218, 228, 144);
-  }
+  
+  
 /*buttons*/
   button {
   color:rgb(149, 112, 151);
