@@ -98,13 +98,13 @@ function run() {
                 timerElement.textContent = 'Game Over!'
                 switch (difficultyLevel) {
                     case "easy":
-                        gameTitle.textContent = "You lost on easy?";
+                        gameTitle.textContent = "Keep Trying";
                         break;
                     case "medium":
-                        gameTitle.textContent = "Try again";
+                        gameTitle.textContent = "At least you tried!";
                         break;
                     case "hard":
-                        gameTitle.textContent = "Apparently not a genius";
+                        gameTitle.textContent = "Apparently not a genius!";
                         break;
                 }
 
