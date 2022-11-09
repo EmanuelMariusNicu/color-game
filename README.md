@@ -46,24 +46,24 @@ The game consists of 3 levels of difficulty , with 3 different board games in wh
 ## Home / Game Page
 
 The Home Page and also Game page consists of the following features:
-### -Header
+### Header
 The Header, which displays the name of the game, is present on top of the page. 
-### -Timer
+### Timer
 Timer is located above the board game and starts once you press Play game.
-### -A board game
+### A board game
 The board game is always in the middle desktop and by default is level easy.
 ![image](https://user-images.githubusercontent.com/108750655/200617639-d898a80f-ecd2-4576-8bb6-09dea9d42220.png)
 
-### -Play Button
+### Play Button
 The play button is located under the board game and let s you start the game. Without choosing a medium or hard level by default will start an easy game.
 
 
 
-### -Difficulty Button
+### Difficulty Button
 This button allows you to change difficulty of the game with three choices.Once hovered a dropdown button with three choices comes up.
 
 
-### -Instruction Button
+### Instruction Button
 This button once pressed it shows you the game rules.
 ![image](https://user-images.githubusercontent.com/108750655/200618333-e9641549-2589-420e-ace8-22792473edf9.png)
 
