@@ -151,3 +151,110 @@ I mainly used shades of purple
 
 
 [Back to Top](#table-of-contents)
+
+# 5. Testing
+
+## Validator Testing
+
+#### HTML
+
+The code from the following HTML files was passed through the [Official W3C Markup Validator](https://validator.w3.org/)
+* index.html
+
+No errors found.
+
+
+#### CSS
+
+The code from the stylesheet was passed through the [Official W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+ No errors found.
+
+#### JavaScript
+
+* No errors were found when passing through the [Official Jshint Validator](https://jshint.com/)
+## Lighthouse Testing
+
+### Chrome DevTools Lighthouse
+
+**Home / Game Page - Mobile**
+
+![image](https://user-images.githubusercontent.com/108750655/200843004-df0c1beb-c973-4346-be43-2d2dcfc365b8.png)
+
+**Home / Game Page - Desktop**
+
+![image](https://user-images.githubusercontent.com/108750655/200846639-e79977fe-5cca-497c-8b41-24a873d6d987.png)
+
+
+### Edge DevTools Lighthouse
+
+| Page      | Device | Category      | Result |
+|-----------|--------|---------------|--------|
+|Index/Game | Mobile | Performance   | 98%    |
+|           |        | Accessibility | 90%    |
+|           |        | Best Practice | 100%   |
+|           |        | SEO           | 100%   |
+|           | Desktop| Performance   | 100%   |
+|           |        | Accessibility | 90%    |
+|           |        | Best Practice | 100%   |
+|           |        | SEO           | 100%   |
+|-----------|--------|---------------|--------|
+
+
+
+
+[Back to Top](#table-of-contents)
+## Manual Testing
+
+### Browser Compatibility
+
+'Match the color' was tested manually and is compatible with the following browsers:
+* Google Chrome
+* Edge
+* Firefox
+
+
+### Device Compatibility and Responsiveness
+
+The Website was tested on Chrome and Edge Developer Tools for responsiveness on multiple devices and is fully responsive from a minimum screen size of 300px.
+
+Students and friends who have played the game on mobile and other devices found no issues with either the functionality or responsiveness of the game.
+
+[Back to Top](#table-of-contents)
+
+## Manual Testing
+
+### Browser Compatibility
+
+Quizzified was tested manually and is compatible with the following browsers:
+* Google Chrome
+* Edge
+* Firefox
+* Safari on mobile
+
+### Device Compatibility and Responsiveness
+
+The Website was tested on Chrome and Edge Developer Tools for responsiveness on multiple devices and is fully responsive from a minimum screen size of 320px.
+
+Students and friends who have played the quiz on mobile and other devices including voice over on both android and iPhones found no issues with either the functionality or responsiveness of the quiz. There was however one issue with keyboard navigation which has been addressed in [Manual Testing Bug Fixes](#manual-testing-bug-fixes)
+
+[Back to Top](#table-of-contents)
+# 6. Bugs
+
+# 7. Deployment
+
+This online game was deployed to [GitHub Pages](https://github.com/EmanuelMariusNicu/color-game).  The steps taken in deploying this project are as follows:
+
+1. Log on to GitHub and select 'color-game' from the list of repositories.
+2. Click on 'Settings' on the menu just below the repository's name.
+3. Navigate to the left side menu and click on 'Pages' in the 'Code and Automation' section.
+4. In the Main area under 'Build and Deployment', click on the source dropdown menu and select the 'Deploy from Branch' selection.
+5. In the 'Branch' section select the `main` branch and the `/(root)` folder.
+6. Click 'Save'.
+7. A message that the site is ready to be deployed appears just under the 'GitHub Pages' heading.  After refreshing the page, the link to the deployed site appears in a different color. 
+8. Click on the link to go to the live deployed page. 
+
+
+[Back to Top](#table-of-contents)
+
+---
