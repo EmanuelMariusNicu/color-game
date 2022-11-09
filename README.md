@@ -257,7 +257,8 @@ This online game was deployed to [GitHub Pages](https://github.com/EmanuelMarius
 
 ## Content
 [Google fonts used throughout the website](https://fonts.google.com/)
-[The icons in the footer were taken from](https://fontawesome.com/)
+
+[The icons in the footer were taken from Fontawesome](https://fontawesome.com/)
 
 
 
