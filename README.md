@@ -237,7 +237,7 @@ This online game was deployed to [GitHub Pages](https://github.com/EmanuelMarius
 5. In the 'Branch' section select the `main` branch and the `/(root)` folder.
 6. Click 'Save'.
 7. A message that the site is ready to be deployed appears just under the 'GitHub Pages' heading.  After refreshing the page, the link to the deployed site appears in a different color. 
-8. Click on the link to go to the live deployed page. 
+8.
 [Visit the Match The Color online game here] (https://emanuelmariusnicu.github.io/color-game/)
 
 
