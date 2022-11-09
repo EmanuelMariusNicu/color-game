@@ -1,6 +1,7 @@
 # MatchTheColors
 
-Welcome to Match The Color! Match The Color is an online game which encourage to pay close attention to details. The colors are randomly generated to give returning players a slightly different experience. In Match The Color game, also children get exposed to colors to help their memory. Click on the cells to see which color is behind it.The purpose of this memory game is to memorize the locations of the cards on the board game and to make pairs of cards of same color by turning them over 2 by 2. When the 2 cards match color, it's a pair! Players even have a timer above the board game, which changes its seconds depending on the chosen difficulty level.
+Welcome to Match The Color! Match The Color is an online game which encourage to pay close attention to details. The colors are randomly generated to give returning players a slightly different experience. In Match The Color game, also children get exposed to colors to help their memory. Click on the cells to see which color is behind it.The purpose of this memory game is to memorize the locations of the cards on the board game and to make pairs of cards of same color by turning them over 2 by 2. When the 2 cards match color, it's a pair! Players even have a timer above the board game, which changes its seconds depending on the chosen difficulty level.![image](https://user-images.githubusercontent.com/108750655/200873266-11e927a8-fa9a-45dc-ab3d-87f01d01c6eb.png)
+
 
 
 
@@ -253,6 +254,7 @@ This online game was deployed to [GitHub Pages](https://github.com/EmanuelMarius
 6. Click 'Save'.
 7. A message that the site is ready to be deployed appears just under the 'GitHub Pages' heading.  After refreshing the page, the link to the deployed site appears in a different color. 
 8. Click on the link to go to the live deployed page. 
+9.[Visit the Match The Color online game here](https://emanuelmariusnicu.github.io/color-game/)
 
 
 [Back to Top](#table-of-contents)
