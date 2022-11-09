@@ -31,7 +31,6 @@ Welcome to Match The Color! Match The Color is an online game which encourage to
 8. [Citation of Sources](#8-citation-of-sources)
     * [Content](#content)
     * [Media](#media)
-9. [Acknowledgements](#9-acknowledgements)
 
 # 1. Overview
 
@@ -244,18 +243,18 @@ This online game was deployed to [GitHub Pages](https://github.com/EmanuelMarius
 
 ---
 # 8. Citation of Sources
-[I was inspired by google searches](http://google.com/)
-[Some code as cited within script.js was adapted from Simple Steps Code quiz tutorial](https://simplestepscode.com/javascript-quiz-tutorial/)
-[The Shuffle Function was taken from this in-depth Guide](https://www.webmound.com/shuffle-javascript-array/)
-[How to shuffle an array of objects](https://www.webmound.com/shuffle-javascript-array/)
+[Instructions button modal was adapted from W3Schools](https://www.w3schools.com/js/)
+
+[Project was inspired from google searches respectively Matching Card games and Color Matching game](https://github.com/paulnguyen-mn/color-matching-game)
+
 [W3Schools](https://www.w3schools.com/js/)
+
 [Code Institute lessons](https://codeinstitute.net/ie/)
+
 [Stack Overflow](https://stackoverflow.com/)
+
 [CSS Tricks](https://css-tricks.com)
 
-## Content
-
-Quiz questions were taken from subjects taught and discussed in secondary school and checked with different sources on [Google](https://www.google.com/)
 
 ## Media
 
@@ -265,9 +264,3 @@ Quiz questions were taken from subjects taught and discussed in secondary school
 [Back to Top](#table-of-contents)
 
 ---
-
-# 9. Acknowledgements
-
-* My Code Institute Mentor, for the valuable professional guidance throughout the development of this project. 
-
-[Back to Top](#table-of-contents)
