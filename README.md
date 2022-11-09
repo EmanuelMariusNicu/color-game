@@ -258,3 +258,31 @@ This online game was deployed to [GitHub Pages](https://github.com/EmanuelMarius
 [Back to Top](#table-of-contents)
 
 ---
+# 8. Citation of Sources
+
+[Some code as cited within script.js was adapted from Simple Steps Code quiz tutorial](https://simplestepscode.com/javascript-quiz-tutorial/)
+[The Shuffle Function was taken from this in-depth Guide](https://www.webmound.com/shuffle-javascript-array/)
+[How to shuffle an array of objects](https://www.webmound.com/shuffle-javascript-array/)
+[W3Schools](https://www.w3schools.com/js/)
+[Code Institute lessons](https://codeinstitute.net/ie/)
+[Stack Overflow](https://stackoverflow.com/)
+[CSS Tricks](https://css-tricks.com)
+
+## Content
+
+Quiz questions were taken from subjects taught and discussed in secondary school and checked with different sources on [Google](https://www.google.com/)
+
+## Media
+
+[Google fonts used throughout the website](https://fonts.google.com/)
+
+
+[Back to Top](#table-of-contents)
+
+---
+
+# 9. Acknowledgements
+
+* My Code Institute Mentor, for the valuable professional guidance throughout the development of this project. 
+
+[Back to Top](#table-of-contents)
