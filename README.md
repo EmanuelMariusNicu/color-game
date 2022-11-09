@@ -256,6 +256,7 @@ This online game was deployed to [GitHub Pages](https://github.com/EmanuelMarius
 
 [CSS Tricks](https://css-tricks.com)
 
+# 9. Credits
 ## Content
 [Google fonts used throughout the website](https://fonts.google.com/)
 
