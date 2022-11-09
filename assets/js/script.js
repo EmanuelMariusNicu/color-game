@@ -1,3 +1,4 @@
+//The Modal code been copied from W3Schools
 //Instruction button modal game instructions 
 const modal = document.getElementById("myModal");
 

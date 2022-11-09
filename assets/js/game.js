@@ -128,21 +128,21 @@ function run() {
         switch (level) {
             case "easy":
                 PAIRS_COUNT = 6;
-                GAME_TIME = 30;
+                GAME_TIME = 20;
                 gameTitle.textContent = 'Level: Easy'
                 showBoxes(level);
                 difficultyLevel = level;
                 break;
             case "medium":
                 PAIRS_COUNT = 8;
-                GAME_TIME = 50;
+                GAME_TIME = 40;
                 gameTitle.textContent = 'Level: Medium'
                 showBoxes(level);
                 difficultyLevel = level;
                 break;
             case "hard":
                 PAIRS_COUNT = 10;
-                GAME_TIME = 80;
+                GAME_TIME = 55;
                 gameTitle.textContent = 'Level: Hard'
                 showBoxes(level);
                 difficultyLevel = level;
