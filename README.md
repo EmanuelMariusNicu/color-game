@@ -69,7 +69,7 @@ This button once pressed it shows you the game rules.
 
 
 
-### -Footer
+### Footer
 Footer contains two social media icons respectively GitHub and Linkedin of the developer.
 
 
@@ -84,7 +84,7 @@ This button allows you to change difficulty of the game with three choices.Once 
 This button once pressed it shows you the game rules.
 ![image](https://user-images.githubusercontent.com/108750655/200618333-e9641549-2589-420e-ace8-22792473edf9.png)
 ## Play Button
-The play button is located under the board game and let s you start the game. Without choosing a medium or hard level by default will start an easy game.
+The play button is located under the board game and let you start the game. Without choosing a medium or hard level by default will start an easy game.
 ![image](https://user-images.githubusercontent.com/108750655/200617809-62c8383b-0cd3-4e27-9cdb-e008c4b01e0b.png) 
 ## Message Display
 
@@ -95,7 +95,7 @@ This is an example when you lose.![image](https://user-images.githubusercontent.
 ## Strategy / Site Goals
 
 The online game was primarily been built for old and young users.  Its purpose is to help people keep their memory sharp at any age. Friends, teachers and family members also took the challenge and found the game very challenging and funny. Whenever you have a few free minutes you can relax your mind with this online game.
-The site is accessible and easy to navigate. It provides the user a few minutes of entertainment and encourages them to give the game another.
+The site is accessible and easy to navigate. It provides the user a few minutes of entertainment and encourages them to give the game another go.
 
 ## Scope / User Stories
 
@@ -104,9 +104,8 @@ The site is accessible and easy to navigate. It provides the user a few minutes 
 * easily understand the purpose of the website
 * navigate the website intuitively
 * navigate and interact with the game easily on their phone, tablet or laptop
-* play the game without the use of a mouse
 * have a positive experience and play the game to the end
-* be provided with messages feedback upon game completion
+* be provided with messages feedback upon game completion or incompletion
 * be challenged to take the game again
 * be able to have another go at the game straight away
 
@@ -133,14 +132,13 @@ I mainly used shades of purple
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## Libraries & Frameworks
+## Libraries
 
 * [Google Fonts](https://fonts.google.com/)
 
 ## Tools
 
 * [Am I Responsive](https://ui.dev/amiresponsive)
-
 * [Chrome Developer Tools and Lighthouse](https://developer.chrome.com/docs/devtools/)
 * [Edge Developer Tools and Lighthouse](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview)
 * [Firefox Developer Tools and Accessibility Inspector](https://firefox-source-docs.mozilla.org/devtools-user/tools_toolbox/index.html)
@@ -149,6 +147,7 @@ I mainly used shades of purple
 * [W3C Markup Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 * [Visual Studio Code](https://code.visualstudio.com/)
+* [Jshint](https://jshint.com/)
 
 
 [Back to Top](#table-of-contents)
@@ -159,8 +158,8 @@ I mainly used shades of purple
 
 #### HTML
 
-The code from the following HTML files was passed through the [Official W3C Markup Validator](https://validator.w3.org/)
-* index.html
+The HTML file was passed through the [Official W3C Markup Validator](https://validator.w3.org/)
+
 
 No errors found.
 
@@ -174,6 +173,7 @@ The code from the stylesheet was passed through the [Official W3C CSS Validator]
 #### JavaScript
 
 * No errors were found when passing through the [Official Jshint Validator](https://jshint.com/)
+
 ## Lighthouse Testing
 
 ### Chrome DevTools Lighthouse
@@ -221,26 +221,10 @@ The Website was tested on Chrome and Edge Developer Tools for responsiveness on 
 
 Students and friends who have played the game on mobile and other devices found no issues with either the functionality or responsiveness of the game.
 
-[Back to Top](#table-of-contents)
-
-## Manual Testing
-
-### Browser Compatibility
-
-Quizzified was tested manually and is compatible with the following browsers:
-* Google Chrome
-* Edge
-* Firefox
-* Safari on mobile
-
-### Device Compatibility and Responsiveness
-
-The Website was tested on Chrome and Edge Developer Tools for responsiveness on multiple devices and is fully responsive from a minimum screen size of 320px.
-
-Students and friends who have played the quiz on mobile and other devices including voice over on both android and iPhones found no issues with either the functionality or responsiveness of the quiz. There was however one issue with keyboard navigation which has been addressed in [Manual Testing Bug Fixes](#manual-testing-bug-fixes)
 
 [Back to Top](#table-of-contents)
 # 6. Bugs
+No bugs to be found.
 
 # 7. Deployment
 
@@ -261,7 +245,7 @@ This online game was deployed to [GitHub Pages](https://github.com/EmanuelMarius
 
 ---
 # 8. Citation of Sources
-
+[I was inspired by google searches](http://google.com/)
 [Some code as cited within script.js was adapted from Simple Steps Code quiz tutorial](https://simplestepscode.com/javascript-quiz-tutorial/)
 [The Shuffle Function was taken from this in-depth Guide](https://www.webmound.com/shuffle-javascript-array/)
 [How to shuffle an array of objects](https://www.webmound.com/shuffle-javascript-array/)
