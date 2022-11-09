@@ -123,7 +123,7 @@ function run() {
         startCountdown();
     });
 
-
+    //Handle difficulty button
     function changeDifficulty(level) {
         switch (level) {
             case "easy":
@@ -154,7 +154,7 @@ function run() {
         init();
     }
 
-
+    //When click the box function
     function handleBoxClick(item, idx) {
         if (
             !item ||
@@ -223,7 +223,7 @@ function shuffle(array) {
     }
 }
 
-
+//List of colors
 function getRandomColorPairs(count) {
     const hueList = ['red', 'yellow', 'green', 'blue', 'pink', 'goldenrod', 'purple', 'darkcyan', 'darksalmon', 'darkolivegreen', 'deeppink']
     const colorList = [];
