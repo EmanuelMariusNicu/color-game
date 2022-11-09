@@ -151,7 +151,7 @@ function run() {
                 PAIRS_COUNT = 6;
                 GAME_TIME = 60;
         }
-        init();
+        
     }
 
     //When click the box function
