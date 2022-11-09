@@ -31,6 +31,7 @@ Welcome to Match The Color! Match The Color is an online game which encourage to
 8. [Citation of Sources](#8-citation-of-sources)
     * [Content](#content)
     * [Media](#media)
+9. [Credits](#9-credits)
 
 # 1. Overview
 
