@@ -1,108 +1,260 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# MatchTheColors
 
-Welcome Marius Emanuel,
+Welcome to Match The Color! Match The Color is an online game which encourage to pay close attention to details. The colors are randomly generated to give returning players a slightly different experience. In Match The Color game, also children get exposed to colors to help their memory. Click on the cells to see which color is behind it.The purpose of this memory game is to memorize the locations of the cards on the board game and to make pairs of cards of same color by turning them over 2 by 2. When the 2 cards match color, it's a pair! Players even have a timer above the board game, which changes its seconds depending on the chosen difficulty level.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+# Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+1. [Overview](#1-overview)
+2. [Features](#2-features)  
+    * [Home / Game Page](#home--game-page)
+    * [Timer Display](#timer-display)
+    * [Difficulty Button](#difficulty-button)
+    * [Instruction Button](#instruction-button)
+    * [Play Button](#play-button)
+    * [Message Display](#message-display)
+    
+3. [User Experience (UX)](#3-user-experience-ux)
+    * [Strategy / Site Goals](#strategy--site-goals)
+    * [Scope / User Stories](#scope--user-stories)
+    * [Structure / Design Choices](#structure--design-choices)
+    * [Surface](#surface)
+4. [Technologies](#4-technologies)
+5. [Testing](#5-testing)
+    * [Validator Testing](#validator-testing)
+    * [Lighthouse Testing](#lighthouse-testing)
+    * [Manual Testing](#manual-testing)
+6. [Bugs](#6-bugs)
+7. [Deployment](#7-deployment)
+8. [Citation of Sources](#8-citation-of-sources)
+    * [Content](#content)
+    * [Media](#media)
+9. [Acknowledgements](#9-acknowledgements)
 
-`python3 -m http.server`
+# 1. Overview
 
-A blue button should appear to click: _Make Public_,
+The aim of this project is to demonstrate skills in HTML, CSS and JavaScript.  
 
-Another blue button should appear to click: _Open Browser_.
+It is a desktop first build and is responsive on tablet and mobile. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The game consists of 3 levels of difficulty , with 3 different board games in which number of colors increases from easy to hard mode. It is interactive and accessible for everyone. You can even play it when you have break while at work, at office or even outside.   
 
-A blue button should appear to click: _Make Public_,
+# 2. Features
 
-Another blue button should appear to click: _Open Browser_.
+## Home / Game Page
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The Home Page and also Game page consists of the following features:
+### -Header
+The Header, which displays the name of the game, is present on top of the page. 
+### -Timer
+Timer is located above the board game and starts once you press Play game.
+### -A board game
+The board game is always in the middle desktop and by default is level easy.
+![image](https://user-images.githubusercontent.com/108750655/200617639-d898a80f-ecd2-4576-8bb6-09dea9d42220.png)
 
-To log into the Heroku toolbelt CLI:
+### -Play Button
+The play button is located under the board game and let s you start the game. Without choosing a medium or hard level by default will start an easy game.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+### -Difficulty Button
+This button allows you to change difficulty of the game with three choices.Once hovered a dropdown button with three choices comes up.
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### -Instruction Button
+This button once pressed it shows you the game rules.
+![image](https://user-images.githubusercontent.com/108750655/200618333-e9641549-2589-420e-ace8-22792473edf9.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### -Footer
+Footer contains two social media icons respectively GitHub and Linkedin of the developer.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Timer Display
+Timer is located above the board game and starts once you press Play game.
+![image](https://user-images.githubusercontent.com/108750655/200624139-dfcbd896-0437-4e73-aaa1-b4c31685d411.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Difficulty Button
+This button allows you to change difficulty of the game with three choices.Once hovered a dropdown button with three choices comes up.
+![image](https://user-images.githubusercontent.com/108750655/200617321-d772b246-983b-4091-8d34-8b2c2b97d021.png)
+## Instruction Button
+This button once pressed it shows you the game rules.
+![image](https://user-images.githubusercontent.com/108750655/200618333-e9641549-2589-420e-ace8-22792473edf9.png)
+## Play Button
+The play button is located under the board game and let s you start the game. Without choosing a medium or hard level by default will start an easy game.
+![image](https://user-images.githubusercontent.com/108750655/200617809-62c8383b-0cd3-4e27-9cdb-e008c4b01e0b.png) 
+## Message Display
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Everytime you start a new game, you lose or win a game a message will be showed on the board game.
+This is an example when you lose.![image](https://user-images.githubusercontent.com/108750655/200625161-946ab7f0-b520-4f03-9f3a-90e8c24d916e.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+# 3. User Experience (UX)
+## Strategy / Site Goals
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The online game was primarily been built for old and young users.  Its purpose is to help people keep their memory sharp at any age. Friends, teachers and family members also took the challenge and found the game very challenging and funny. Whenever you have a few free minutes you can relax your mind with this online game.
+The site is accessible and easy to navigate. It provides the user a few minutes of entertainment and encourages them to give the game another.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Scope / User Stories
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Users will be able to: 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+* easily understand the purpose of the website
+* navigate the website intuitively
+* navigate and interact with the game easily on their phone, tablet or laptop
+* play the game without the use of a mouse
+* have a positive experience and play the game to the end
+* be provided with messages feedback upon game completion
+* be challenged to take the game again
+* be able to have another go at the game straight away
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+## Structure / Design Choices
 
-## FAQ about the uptime script
+This online game is designed with a minimalist approach. It offers simplicity and consistency within its structure and its uncluttered design helps to maintain the user's focus on the game. The layout of the website is consistent across devices.   
 
-**Why have you added this script?**
+## Surface
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+* Colour Scheme
 
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+I mainly used shades of purple
+[Back to Top](#table-of-contents)
 
 ---
 
-Happy coding!
+# 4. Technologies
+
+## Languages
+
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+## Libraries & Frameworks
+
+* [Google Fonts](https://fonts.google.com/)
+
+## Tools
+
+* [Am I Responsive](https://ui.dev/amiresponsive)
+
+* [Chrome Developer Tools and Lighthouse](https://developer.chrome.com/docs/devtools/)
+* [Edge Developer Tools and Lighthouse](https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/overview)
+* [Firefox Developer Tools and Accessibility Inspector](https://firefox-source-docs.mozilla.org/devtools-user/tools_toolbox/index.html)
+* [GitPod](https://www.gitpod.io/)
+* [GitHub](https://github.com/)
+* [W3C Markup Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+
+[Back to Top](#table-of-contents)
+
+# 5. Testing
+
+## Validator Testing
+
+#### HTML
+
+The code from the following HTML files was passed through the [Official W3C Markup Validator](https://validator.w3.org/)
+* index.html
+
+No errors found.
+
+
+#### CSS
+
+The code from the stylesheet was passed through the [Official W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+ No errors found.
+
+#### JavaScript
+
+* No errors were found when passing through the [Official Jshint Validator](https://jshint.com/)
+## Lighthouse Testing
+
+### Chrome DevTools Lighthouse
+
+**Home / Game Page - Mobile**
+
+![image](https://user-images.githubusercontent.com/108750655/200843004-df0c1beb-c973-4346-be43-2d2dcfc365b8.png)
+
+**Home / Game Page - Desktop**
+
+![image](https://user-images.githubusercontent.com/108750655/200846639-e79977fe-5cca-497c-8b41-24a873d6d987.png)
+
+
+### Edge DevTools Lighthouse
+
+| Page      | Device | Category      | Result |
+|-----------|--------|---------------|--------|
+|Index/Game | Mobile | Performance   | 98%    |
+|           |        | Accessibility | 90%    |
+|           |        | Best Practice | 100%   |
+|           |        | SEO           | 100%   |
+|           | Desktop| Performance   | 100%   |
+|           |        | Accessibility | 90%    |
+|           |        | Best Practice | 100%   |
+|           |        | SEO           | 100%   |
+|-----------|--------|---------------|--------|
+
+
+
+
+[Back to Top](#table-of-contents)
+## Manual Testing
+
+### Browser Compatibility
+
+'Match the color' was tested manually and is compatible with the following browsers:
+* Google Chrome
+* Edge
+* Firefox
+
+
+### Device Compatibility and Responsiveness
+
+The Website was tested on Chrome and Edge Developer Tools for responsiveness on multiple devices and is fully responsive from a minimum screen size of 300px.
+
+Students and friends who have played the game on mobile and other devices found no issues with either the functionality or responsiveness of the game.
+
+[Back to Top](#table-of-contents)
+
+## Manual Testing
+
+### Browser Compatibility
+
+Quizzified was tested manually and is compatible with the following browsers:
+* Google Chrome
+* Edge
+* Firefox
+* Safari on mobile
+
+### Device Compatibility and Responsiveness
+
+The Website was tested on Chrome and Edge Developer Tools for responsiveness on multiple devices and is fully responsive from a minimum screen size of 320px.
+
+Students and friends who have played the quiz on mobile and other devices including voice over on both android and iPhones found no issues with either the functionality or responsiveness of the quiz. There was however one issue with keyboard navigation which has been addressed in [Manual Testing Bug Fixes](#manual-testing-bug-fixes)
+
+[Back to Top](#table-of-contents)
+# 6. Bugs
+
+# 7. Deployment
+
+This online game was deployed to [GitHub Pages](https://github.com/EmanuelMariusNicu/color-game).  The steps taken in deploying this project are as follows:
+
+1. Log on to GitHub and select 'color-game' from the list of repositories.
+2. Click on 'Settings' on the menu just below the repository's name.
+3. Navigate to the left side menu and click on 'Pages' in the 'Code and Automation' section.
+4. In the Main area under 'Build and Deployment', click on the source dropdown menu and select the 'Deploy from Branch' selection.
+5. In the 'Branch' section select the `main` branch and the `/(root)` folder.
+6. Click 'Save'.
+7. A message that the site is ready to be deployed appears just under the 'GitHub Pages' heading.  After refreshing the page, the link to the deployed site appears in a different color. 
+8. Click on the link to go to the live deployed page. 
+
+
+[Back to Top](#table-of-contents)
+
+---
