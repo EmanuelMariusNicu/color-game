@@ -255,10 +255,10 @@ This online game was deployed to [GitHub Pages](https://github.com/EmanuelMarius
 
 [CSS Tricks](https://css-tricks.com)
 
-
-## Media
-
+## Content
 [Google fonts used throughout the website](https://fonts.google.com/)
+[The icons in the footer were taken from](https://fontawesome.com/)
+
 
 
 [Back to Top](#table-of-contents)
