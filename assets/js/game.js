@@ -46,6 +46,15 @@ function run() {
             item.parentElement.classList.remove("hideBox");
         });
     }
+    
+    //function to reset box colors
+    function resetBoxes()
+    {
+        colorItemList = document.querySelectorAll('#colorList > li:not(.hideBox)');
+        colorItemList.forEach((item) => {
+            item.classList.remove('active');
+        })
+    }
 
     // Function to initialize the game
     function init() {
@@ -151,7 +160,7 @@ function run() {
                 PAIRS_COUNT = 6;
                 GAME_TIME = 60;
         }
-        
+        resetBoxes();
     }
 
     //When click the box function
