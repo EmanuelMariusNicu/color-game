@@ -224,7 +224,7 @@ Students and friends who have played the game on mobile and other devices found 
 
 [Back to Top](#table-of-contents)
 # 6. Bugs
-No bugs to be found.
+One small bug in functionality. When changing level difficulty click events for each boxe remains active without pressing Play Button. Needs to disable click functionality outside of Play Button.
 
 # 7. Deployment
 
