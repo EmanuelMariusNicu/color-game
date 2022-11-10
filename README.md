@@ -246,8 +246,6 @@ This online game was deployed to [GitHub Pages](https://github.com/EmanuelMarius
 # 8. Citation of Sources
 [Instructions button modal was adapted from W3Schools](https://www.w3schools.com/js/)
 
-[Project was inspired from google searches respectively Matching Card games and Color Matching game](https://github.com/paulnguyen-mn/color-matching-game)
-
 [W3Schools](https://www.w3schools.com/js/)
 
 [Code Institute lessons](https://codeinstitute.net/ie/)
